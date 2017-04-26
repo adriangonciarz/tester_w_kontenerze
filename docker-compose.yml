@@ -1,0 +1,8 @@
+version: '2'
+services:
+  json-server:
+    image: agonciarz/json-server
+    ports:
+     - "3000:3000"
+  functional-tests:
+    image: agonciarz/mvn-api-tests:latest

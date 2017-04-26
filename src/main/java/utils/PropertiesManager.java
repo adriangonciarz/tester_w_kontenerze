@@ -4,9 +4,6 @@ import java.io.IOException;
 import java.rmi.server.ExportException;
 import java.util.Properties;
 
-/**
- * Created by adriangonciarz on 25.04.2017.
- */
 public class PropertiesManager {
     private static final String FRAMEWORK_PROPERTIES = "framework.properties";
     private static PropertiesManager propertiesManager;

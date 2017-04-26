@@ -14,6 +14,6 @@ public class PostTest extends RestTestBase {
         when().
             post("/posts").
         then().
-            log().all();
+            assertThat().statusCode(201);
     }
 }

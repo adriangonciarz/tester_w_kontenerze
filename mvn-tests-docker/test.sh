@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /functional-tests
+cd /test-code
 mvn verify

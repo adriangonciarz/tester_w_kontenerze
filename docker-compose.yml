@@ -6,3 +6,5 @@ services:
      - "3000:3000"
   functional-tests:
     image: agonciarz/mvn-api-tests:latest
+    volumes:
+    - .:/functional-tests

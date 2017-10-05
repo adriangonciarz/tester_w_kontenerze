@@ -1,4 +1,4 @@
-#Droga/i Uczestniczko/ku
+# Droga/i Uczestniczko/ku
 W celu weryfikacji środowiska przed naszymi warszatami poproszę Cię o wykonanie kilku czynności. Najpierw upewnij się, że wykonałeś kroki o które prosiłem w pierwszym mailu.
 
 ## Wymagania
@@ -24,10 +24,12 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 ## Weryfikacja środowiska
 1. Git:
 - Sklonuj poniższe repozytorium `git clone git@github.com:adriangonciarz/dockers.git`
+- Wejdź do folderu z repozytorium
 2. Docker
-- Wejdź do folderu `dockers/json-server-docker`
+- Wejdź do folderu `json-server-docker`
 - Uruchom skrypt `build.sh`
 - Wykonaj polecenie `docker images` i upewnij się, że znajduje się tam obraz `agonciarz/json-server:latest`
+- Wyjdź do głownego folderu repozytorium
 3. Maven
 - Wejdź do folderu `test-code`
 - Uruchom polecenie `mvn install -DskipTests`

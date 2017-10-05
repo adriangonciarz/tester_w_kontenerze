@@ -1,5 +1,5 @@
 # Droga/i Uczestniczko/ku
-W celu weryfikacji środowiska przed naszymi warszatami poproszę Cię o wykonanie kilku czynności. Najpierw upewnij się, że wykonałeś kroki o które prosiłem w pierwszym mailu.
+W celu weryfikacji środowiska przed naszymi warszatami poproszę Cię o wykonanie kilku czynności. Najpierw upewnij się, że wykonałaś(eś) kroki o które prosiłem w pierwszym mailu (Wymagania) a potem przejdź do kroków w paragrafie Weryfikacja.
 
 ## Wymagania
 ### Wiedza
@@ -29,7 +29,7 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 - Wejdź do folderu `json-server-docker`
 - Uruchom skrypt `build.sh`
 - Wykonaj polecenie `docker images` i upewnij się, że znajduje się tam obraz `agonciarz/json-server:latest`
-- Wyjdź do głownego folderu repozytorium
+- Wyjdź do głównego folderu repozytorium
 3. Maven
 - Wejdź do folderu `test-code`
 - Uruchom polecenie `mvn install -DskipTests`

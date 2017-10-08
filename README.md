@@ -7,6 +7,7 @@ Oczekuję od Ciebie:
 - znajomości podstaw języka Java oraz projektów Maven
 - podstaw poruszania się w systemie Unix oraz komunikacji w API REST
 - mile widziana znajomość podstaw GIT
+
 Z uwagi na ograniczony czas warsztatów nie będzie czasu na tłumaczenie tych zagadnień od zera :(
 
 ### Narzędzia

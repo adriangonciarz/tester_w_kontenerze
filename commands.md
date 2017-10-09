@@ -22,3 +22,6 @@
 **`docker stop containerID`** - stop running container with ID `containerID`
 **`docker rm containerID`** - remove dead container `containerID`
 
+## Docker Compose
+**`docker-compose up`** - run a composition according to `docker-compose.yml` (containers, networks, volumes, etc.)
+**`docker-compose down`** - stop and clear a composition according to `docker-compose.yml`

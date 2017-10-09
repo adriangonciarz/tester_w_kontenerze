@@ -1,10 +1,13 @@
 version: '2'
 services:
-  json-server:
+  api:
     image: agonciarz/json-server
     ports:
-     - "3000:3000"
-  functional-tests:
+      - "3000:3000"
+  tests:
     image: agonciarz/mvn-api-tests:latest
+    environment:
+      - API_ENDPOINT=http://api
+      - API_PORT=3000
     volumes:
-    - .:/functional-tests
+      - ./reports:/reports

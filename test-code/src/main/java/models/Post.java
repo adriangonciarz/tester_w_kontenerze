@@ -1,6 +1,6 @@
 package models;
 
-public class PostModel {
+public class Post {
     public int userId;
     public String title;
     public String body;

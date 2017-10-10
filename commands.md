@@ -13,6 +13,8 @@
 ### Running new container
 **`docker run ubuntu:16.04`** - run the container of Docker image `ubuntu:16.04`
 
+**`docker run -d serverimage`** - run the container of Docker image `serverimage` as deamon (in background)
+
 **`docker run -p3000:3000 ubuntu:16.04`** - run the container of Docker image `ubuntu:16.04` with exposed port 3000 to my local machine port 3000
 
 **`docker run -v /my/local/path:/container/path ubuntu:16.04`** - run the container of Docker image `ubuntu:16.04` with my machine folder `/my/local/path` mounted to container path `/container/path`
@@ -31,5 +33,7 @@
 
 ## Docker Compose
 **`docker-compose up`** - run a composition according to `docker-compose.yml` (containers, networks, volumes, etc.)
+
+**`docker-compose up -d`** - run a composition as deamon
 
 **`docker-compose down`** - stop and clear a composition according to `docker-compose.yml`

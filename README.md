@@ -27,7 +27,7 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
 ## Weryfikacja środowiska
 1. Git:
-- Sklonuj poniższe repozytorium `git clone git@github.com:adriangonciarz/dockers.git`
+- Sklonuj poniższe repozytorium `git@github.com:adriangonciarz/tester_w_kontenerze.git`
 - Wejdź do folderu z repozytorium
 2. Docker
 - Wejdź do folderu `json-server-docker`

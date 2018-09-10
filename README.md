@@ -17,9 +17,12 @@ Proszę o instalację:
 - Java 8 + Maven
 https://maven.apache.org/install.html
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-- środowiska Docker 
+- środowiska Docker
+
 https://docs.docker.com/docker-for-windows/install/
+
 https://docs.docker.com/docker-for-mac/install/
+
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
 ## Weryfikacja środowiska

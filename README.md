@@ -13,6 +13,7 @@ Z uwagi na ograniczony czas warsztatów nie będzie czasu na tłumaczenie tych z
 ### Narzędzia
 Proszę o przyniesienie ze sobą komputera z systemem Unix (Mac/Linux) albo w ostateczności Windows z konsolą (Powershell, etc.)
 Proszę o instalację:
+- GITa https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - wybranego IDE (najlepiej IntelliJ https://www.jetbrains.com/idea/download)
 - Java 8 + Maven
 https://maven.apache.org/install.html

@@ -33,7 +33,7 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 2. Docker
 - Wejdź do folderu `json-server-docker`
 - Wykonaj polecenie `docker pull maven:3.5.0-jdk-8`
-- Uruchom skrypt `build.sh`
+- Uruchom skrypt komendą `./build.sh`
 - Wykonaj polecenie `docker images` i upewnij się, że znajdują się tam obrazy: `agonciarz/json-server:latest` oraz `maven:3.5.0-jdk-8`
 - Wyjdź do głównego folderu repozytorium
 3. Maven

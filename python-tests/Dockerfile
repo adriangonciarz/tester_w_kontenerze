@@ -2,7 +2,7 @@ FROM python:3.7.0-slim-stretch
 
 WORKDIR /tests
 
-COPY ["requirements.txt", "test_1.py", "./"]
+COPY ["requirements.txt", "test_1.py", "wait-for.sh", "./"]
 ENV BASE_URI=http://jsonplaceholder.typicode.com
 
 RUN pip install -r requirements.txt

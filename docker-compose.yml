@@ -1,12 +1,18 @@
-version: '2'
+version: '2.1'
 services:
   api:
-    image: agonciarz/json-server
+    image: twk/json-server:latest
     ports:
       - "3000:3000"
-  tests:
-    image: agonciarz/mvn-api-tests:latest
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  python-tests:
+    image: twk/python-tests:latest
     environment:
       - BASE_URI=http://api:3000
     volumes:
       - ./reports:/reports
+    command: bash -c "./wait-for.sh api:3000 && pytest -v test_1.py --html=reports/report.html"

@@ -14,5 +14,5 @@ services:
     environment:
       - BASE_URI=http://api:3000
     volumes:
-      - ./reports:/reports
-    command: bash -c "./wait-for.sh api:3000 && pytest -v test_1.py --html=reports/report.html"
+      - ./reports:/tests/reports
+    command: bash -c "./wait-for.sh api:3000 && pytest -s test_1.py --html=reports/report.html --self-contained-html"

@@ -1,1 +1,2 @@
-docker build -t agonciarz/json-server:latest .
+#!/usr/bin/env bash
+docker build -t twk/json-server:latest .

@@ -7,7 +7,6 @@ services:
   tests:
     image: agonciarz/mvn-api-tests:latest
     environment:
-      - API_ENDPOINT=http://api
-      - API_PORT=3000
+      - BASE_URI=http://api:3000
     volumes:
       - ./reports:/reports

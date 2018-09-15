@@ -1,6 +1,10 @@
 ## Materiały
 
 ### Przydatne Linki
+Dobry tutorial z budowania obrazów:
+
+https://rominirani.com/docker-tutorial-series-part-5-building-your-own-docker-images-b4a448b44afc
+
 O testowaniu z użyciem Dockera:
 
 https://alexei-led.github.io/post/docker_testing/

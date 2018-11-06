@@ -1,5 +1,9 @@
 version: '2.1'
 services:
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
   api:
     image: twk/json-server:latest
     ports:
@@ -9,6 +13,8 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
+    envs:
+      - DB_URL=db:5432
   python-tests:
     image: twk/python-tests:latest
     environment:

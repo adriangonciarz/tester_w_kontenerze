@@ -14,10 +14,8 @@ Z uwagi na ograniczony czas warsztatów nie będzie czasu na tłumaczenie tych z
 Proszę o przyniesienie ze sobą komputera z systemem Unix (Mac/Linux) albo w ostateczności Windows z konsolą (Powershell, etc.)
 Proszę o instalację:
 - GITa https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-- wybranego IDE (najlepiej IntelliJ https://www.jetbrains.com/idea/download)
-- Java 8 + Maven
-https://maven.apache.org/install.html
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+- PyCharm Community (https://www.jetbrains.com/pycharm/download/)
+- edytor tekstowy (Notepad++, Sublime, etc.)
 - środowiska Docker
 
 https://docs.docker.com/docker-for-windows/install/
@@ -31,15 +29,11 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 - Sklonuj poniższe repozytorium `git@github.com:adriangonciarz/tester_w_kontenerze.git`
 - Wejdź do folderu z repozytorium
 2. Docker
+- w konsoli uruchom polecenie `docker pull python:3.7.0-slim-stretch`
 - Wejdź do folderu `json-server-docker`
-- Wykonaj polecenie `docker pull maven:3.5.0-jdk-8`
 - Uruchom skrypt komendą `./build.sh`
-- Wykonaj polecenie `docker images` i upewnij się, że znajdują się tam obrazy: `agonciarz/json-server:latest` oraz `maven:3.5.0-jdk-8`
-- Wyjdź do głównego folderu repozytorium
-3. Maven
-- Wejdź do folderu `test-code`
-- Uruchom polecenie `mvn install -DskipTests`
-- Upewnij się, że widnieje informacja *BUILD SUCCEEDED*
+- Wykonaj polecenie `docker images` i upewnij się, że znajdują się tam obrazy: 
+`twk/json-server:latest` oraz `python:3.7.0-slim-stretch`
 
 ## W razie problemów
 Pisz na mój adres email: *adrian.gonciarz@gmail.com* 

@@ -4,7 +4,7 @@ W celu weryfikacji środowiska przed naszymi warszatami poproszę Cię o wykonan
 ## Wymagania
 ### Wiedza
 Oczekuję od Ciebie:
-- znajomości podstaw języka Java oraz projektów Maven
+- znajomości podstaw automatyzacji testów (najlepiej z użyciem Python)
 - podstaw poruszania się w systemie Unix oraz komunikacji w API REST
 - mile widziana znajomość podstaw GIT
 

@@ -26,7 +26,7 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
 ## Weryfikacja środowiska
 1. Git:
-- Sklonuj poniższe repozytorium `git@github.com:adriangonciarz/tester_w_kontenerze.git`
+- Sklonuj poniższe repozytorium `git@github.com:adriangonciarz/tester_w_kontenerze.git` (jeśli masz konto GitHub i dodany klucz SSH: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) lub `git clone https://github.com/adriangonciarz/tester_w_kontenerze.git` jeśli nie chcesz używać SSH.
 - Wejdź do folderu z repozytorium
 2. Docker
 - w konsoli uruchom polecenie `docker pull python:3.7.0-slim-stretch`

@@ -30,7 +30,7 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 - Wejdź do folderu z repozytorium
 2. Docker
 - w konsoli uruchom polecenie `docker pull python:3.7.0-slim-stretch`
-- Wejdź do folderu `json-server-docker`
+- Wejdź do folderu `json-server`
 - Uruchom skrypt komendą `./build.sh`
 - Wykonaj polecenie `docker images` i upewnij się, że znajdują się tam obrazy: 
 `twk/json-server:latest` oraz `python:3.7.0-slim-stretch`

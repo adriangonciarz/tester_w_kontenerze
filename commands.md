@@ -45,7 +45,7 @@
 **`docker-compose down`** - stop and clear a composition according to `docker-compose.yml`
 
 ## Cleaning unnecessary data
-** `docker system prune` - clean images, processes and networks
+**`docker system prune` - clean images, processes and networks
 
-** `docker container prune` - clean dead containers
+**`docker container prune` - clean dead containers
 

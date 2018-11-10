@@ -9,6 +9,8 @@
 
 **`docker rmi ubuntu:16.04`** - remove the image `ubuntu:16.04` from host
 
+**`docker rmi ubuntu:16.04` --force** - remove the image forcing
+
 **`docker rmi $(docker images --quiet --filter "dangling=true")`** remove all unnecessary images from host
 
 ## Containers

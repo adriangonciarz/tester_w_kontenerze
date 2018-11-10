@@ -43,3 +43,9 @@
 **`docker-compose up -d`** - run a composition as deamon
 
 **`docker-compose down`** - stop and clear a composition according to `docker-compose.yml`
+
+## Cleaning unnecessary data
+** `docker system prune` - clean images, processes and networks
+
+** `docker container prune` - clean dead containers
+

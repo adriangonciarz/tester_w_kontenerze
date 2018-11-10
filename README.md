@@ -14,6 +14,7 @@ Z uwagi na ograniczony czas warsztatów nie będzie czasu na tłumaczenie tych z
 Proszę o przyniesienie ze sobą komputera z systemem Unix (Mac/Linux) albo w ostateczności Windows z konsolą (Powershell, etc.)
 Proszę o instalację:
 - GITa https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- Python3 https://realpython.com/installing-python/
 - PyCharm Community (https://www.jetbrains.com/pycharm/download/)
 - edytor tekstowy (Notepad++, Sublime, etc.)
 - środowiska Docker
